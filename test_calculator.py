@@ -16,7 +16,7 @@ def test_multiply():
 
 def test_divide():
     assert Calculator.divide(20, 2) == 10
-    assert Calculator.divide(8, 4) == 2
+    assert Calculator.divide(12, 4) == 3
 
 def test_divide_by_zero():
     try:
